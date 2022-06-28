@@ -1,0 +1,1 @@
+My goal in this project is to create a rock paper scissors game using Javascript. Eventually this project will have a GUI or graphic user interface to be able to play on a website, but for now we are only going to play within the console of javascript. My goal is to combine what I know about conditionals, functions, loops to create a simple rock paper scissor game. 
