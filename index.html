@@ -6,19 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    
 </head>
 <body>
-    <div class="flex-container">
-        <h1>Rock, Paper, Scissors</h1>
-        <button onclick="game()">Play Game</button>
-        <div>
-            <p>This game is played on the console. </p>
-            <p>To access it on Windows/Linux: press CTRL + Shift + J</p>
-            <p>To access it on Mac: press Command+ Option + J</p>
+
+    <div class="container">
+        <div class="title ">
+            <h1>Lets play Rock-Paper-Scissors!</h1>
+        </div>
+        
+    
+        <div class="score">
+            <h2 class="ties">Ties: 0</h2>
+        </div>
+        <div class="winnerDiv">
+            <div>
+                <h1 class="winner"></h1>
+            </div>
+            <div>
+                <button class="restart" onclick="resetGame()">Play again?</button>
+            </div>
+          
+        </div>
+        <div class="playerSelection">
+            <div >
+                <h3 class="playerChoice"></h3>
+            </div>
+    
+            <div >
+                <p class="playerScore"> Player Score: 0</p>
+            </div>
+    
+        </div>   
+            <div class="options">
+                <div>
+                    <button class="opt" id="rock">Rock</button>
+                </div>
+                <div>
+                    <button class= "opt"id="paper">Paper</button>
+                </div>
+                    <button class="opt"id="scissors">Scissors</button>
+                </div>
+                
+                
+            </div>
+        <div class="computerSelection">
+            <div>
+                <p class="computerScore">Computer Score: 0</p>
+            </div>
+            
+            <div>
+                <h3 class="computerChoice"></h3>
+            </div>
+            
+            
         </div>
     </div>
     
+
+
     
+    
+    <script src="./script.js"></script>
 </body>
 </html>
